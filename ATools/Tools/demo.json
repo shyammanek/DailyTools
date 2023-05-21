@@ -1,0 +1,31 @@
+ToolsData: {
+    HeaderText: "Tools",
+    HeaderIcon: "fa fa-wrench",
+    HeaderDescription: "Tools",
+    [
+        {
+            id: 1,
+            name: "Tools",
+            description: "Tools",
+            url: "/tools",
+            logoText: "Tools",
+            Image: "fa fa-wrench",
+        },
+        {
+        id: 1,
+        name: "Tools",
+        description: "Tools",
+        url: "/tools",
+        logoText: "Tools",
+        Image: "fa fa-wrench",
+        },
+        {
+    id: 1,
+    name: "Tools",
+    description: "Tools",
+    url: "/tools",
+    logoText: "Tools",
+    Image: "fa fa-wrench",
+        },
+    ]
+}

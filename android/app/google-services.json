@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "192501014105",
+    "firebase_url": "https://dailylifetools-klmapps-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dailylifetools-klmapps",
+    "storage_bucket": "dailylifetools-klmapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192501014105:android:d9abf4cdaf4d012c715b48",
+        "android_client_info": {
+          "package_name": "com.dailytools"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192501014105-on27uc9vrhqum79vtn5l2r0u69lg1o49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCepGBLjZtuUUvECyF7U1kbYl_pG_HWRRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192501014105-mb2obevh03pcba4td2vdak4r6h8gem7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

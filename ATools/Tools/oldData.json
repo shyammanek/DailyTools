@@ -1,0 +1,200 @@
+var data = [
+    {
+      id: 1,
+      logoText:'',
+      name: 'Vahan Info',
+      image: '',
+      url: 'https://vahan.nic.in/nrservices/faces/user/searchstatus.xhtml',
+    },
+    {
+      id: 2,
+      name: 'Challan Info',
+      image: '',
+      url: 'https://echallan.parivahan.gov.in/index/accused-challan',
+    },
+    {
+      id: 3,
+      name: 'Driving Licence Info',
+      image: '',
+      url: 'https://parivahan.gov.in/rcdlstatus/?pur_cd=101',
+    },
+    {
+      id: 4,
+      name: 'pollution Expiry Info',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://vahan.nic.in/nrservices/faces/user/searchstatus.xhtml',
+    },
+    {
+      id: 5,
+      name: 'Resume Builder',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.pnghttps://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://www.free-resume-builder.net',
+    },
+    {
+      id: 6,
+      logoText:'',
+      name: 'EMI Calculator',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://emicalculator.net/',
+    },
+    {
+      id: 12,
+      name: 'GST Calculator',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://cleartax.in/s/gst-calculator',
+    },
+    {
+      id: 13,
+      logoText:'',
+      name: 'FD Calculator',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://www.paisabazaar.com/fixed-deposit-calculator/',
+    },
+    {
+      id: 14,
+      logoText:'',
+      name: 'RD Calculator',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://www.paisabazaar.com/rd-calculator/',
+    },
+    {
+      id: 15,
+      name: 'SIP Calculator',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://www.paisabazaar.com/mutual-funds/sip-calculator/',
+    },
+    {
+      id: 16,
+      name: 'PPF Calculator',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://www.paisabazaar.com/ppf-calculator/',
+    },
+    {
+      id: 18,
+      name: 'Income Tax Calculator',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'https://www.paisabazaar.com/tax/income-tax-calculator/',
+    },
+    {
+      id: 19,
+      name: 'online PAN Card Application',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html',
+    },
+    {
+      id: 20,
+      logoText:'',
+      name: 'Aadhar Card Application',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'https://uidai.gov.in/my-aadhaar/get-aadhaar.html',
+    },
+    {
+      id: 21,
+      logoText:'',
+      name: 'Passport Application',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'https://portal2.passportindia.gov.in/AppOnlineProject/welcomeLink',
+    },
+    {
+      id: 22,
+      logoText:'',
+      name: 'Voter ID Application',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'https://www.nvsp.in/',
+    },
+    {
+      id: 23,
+      logoText:'',
+      name: 'Driving License Application',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'https://parivahan.gov.in/sarathiservice8/stateSelection.do',
+    },
+    {
+      id: 24,
+      name: 'Ration Card Application',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://www.india.gov.in/apply-new-ration-card',
+    },
+    {
+      id: 25,
+      logoText:'',
+      name: 'PF Withdrawal Application',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://unifiedportal-mem.epfindia.gov.in/memberinterface/',
+    },
+    {
+      id: 30,
+      logoText:'',
+      name: 'link Aadhar with PAN Card',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://www1.incometaxindiaefiling.gov.in/e-FilingGS/Services/LinkAadhaarHome.html',
+    },
+    {
+      id: 31,
+      logoText:'',
+      name: 'link Aadhar with Mobile Number',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://uidai.gov.in/my-aadhaar/update-aadhaar.html',
+    },
+    {
+      id: 33,
+      logoText:'',
+      name: 'book a cylinder',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://my.ebharatgas.com/bharatgas/',
+    },
+    {
+      id: 35,
+      logoText:'',
+      name: 'apply for new gas connection',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://my.ebharatgas.com/bharatgas/',
+    },
+    {
+      id: 38,
+      logoText:'',
+      name: 'zip code finder',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'https://www.indiapost.gov.in/VAS/Pages/findpincode.aspx',
+    },
+    {
+      id: 39,
+      name: 'post office savings scheme calculator',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'https://www.indiapost.gov.in/VAS/Pages/Content/PostOfficeSavingsScheme.aspx',
+    },
+    {
+      id: 40,
+      name: 'Jobs in India',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'http://www.indeed.co.in/',
+    },
+    {
+      id: 42,
+      name: 'Remote Jobs',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url:
+        'https://remoteok.io/',
+    },
+    {
+      id: 41,
+      name: 'jobs for freshers',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'http://www.freshersworld.com/',
+    },
+    {
+      id: 57,
+      name: 'Gov. Scheme for farmers',
+      image: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png',
+      url: 'https://www.india.gov.in/topics/agriculture/farming-schemes',
+    },
+  ]
