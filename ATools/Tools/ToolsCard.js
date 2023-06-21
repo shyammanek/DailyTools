@@ -9,19 +9,70 @@ import {
   Dimensions,
 } from 'react-native';
 
+import {
+  InterstitialAd,
+  AdEventType,
+  TestIds,
+} from 'react-native-google-mobile-ads';
+
+const adUnitId = __DEV__
+  ? TestIds.INTERSTITIAL
+  : 'ca-app-pub-9621277816845441/4324215512';
+
+const interstitial = InterstitialAd.createForAdRequest(adUnitId);
+
 const DeviceWidth = Dimensions.get('window').width;
 const DeviceHeight = Dimensions.get('window').height;
 
 export default class ToolsCard extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loaded: false,
+    };
+  }
+
   navigateToWebview = (url, name) => {
     this.props.navigation.navigate('CommonWebview', {url: url, name: name});
   };
+
+  componentDidMount() {
+    const {loaded} = this.state;
+    // if (loaded) {
+    //   this.setState({loaded: false});
+    //   interstitial.load();
+    // }
+
+    interstitial.load();
+    console.log('mounted', loaded,interstitial.loaded);
+
+
+    const unsubscribe = interstitial.addAdEventListener(AdEventType.LOADED, () => {
+      this.setState({ loaded: true });
+      console.log('loaded-----');
+    });
+
+    if (!loaded) {
+      return null;
+    }
+    return unsubscribe;
+  }
+
+  componentWillUnmount() {
+    console.log('unmounting', this.state.loaded);
+  }
 
   renderItem = ({item}) => {
     return (
       <TouchableOpacity
         style={styles.cardContainer}
-        onPress={() => this.navigateToWebview(item.url, item.name)}>
+        onPress={() => {
+          if(interstitial.loaded){
+            interstitial.show();
+            this.setState({loaded: false});
+          }
+          this.navigateToWebview(item.url, item.name);
+        }}>
         <View style={styles.card}>
           {/* <Image source={item.image} style={styles.cardImage} /> */}
           <Text style={styles.cardText}>{item.name}</Text>

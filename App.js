@@ -31,12 +31,6 @@ const StackScreen = () => {
       screenOptions={{
         headerShown: true,
       }}>
-      {/* <Stack.Screen
-      options={{
-        headerShown: true,
-        headerTitle: 'Tools , Calculators & More'
-      }}
-       name='Tools And Calculators' component={BottomTab} /> */}
       <Stack.Screen 
       options={{
         headerShown: true,

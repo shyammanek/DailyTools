@@ -1,4 +1,7 @@
 {
   "name": "DailyTools",
-  "displayName": "DailyTools"
+  "displayName": "DailyTools",
+    "react-native-google-mobile-ads": {
+      "android_app_id": "ca-app-pub-9621277816845441~3414458521"
+    }
 }
